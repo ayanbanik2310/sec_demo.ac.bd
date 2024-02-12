@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About us</title>
+        <link rel="stylesheet" href="style1.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <!---                menu/navigation                 -->
+        <section class="sub-header">
+            <nav>
+                <a href="home.html"
+                    ><img src="eduford_img/logo1.png" alt=""
+                /></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="academic.html">DEPARTMENT</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+
+            <h1>Our Facilities</h1>
+
+        </section>
+
+        <!--                 Our Serices content                   -->
+
+       
+        
+        <section class="" id="">
+            <br>
+            <h1 align="center"> We provide Services of </h1>
+            <header class="headx">
+                <ul id="menu">
+                    <li><a href="#Libraries">Libraries</a></li>
+                    <li><a href="#Sports">Sports</a></li>
+                    <li><a href="#Accommodations">Accommodations</a></li>
+                    <li><a href="#Stipend">Stipend</a></li>
+                </ul>
+            </header>
+        </section>
+        <section class="sect" id="Libraries">
+            
+        </section>
+        
+
+        <section class="sect" id="Sports">
+
+        </section>
+
+        <section class="sect" id="Accommodations">
+
+        </section>
+
+        <section class="sect" id="Stipend">
+
+        </section>
+       
+
+        
+
+        <!-----          footer           ------>
+
+        <section class="footer">
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>
+                Made By <br />
+                Kakoli and Ayan
+            </p>
+        </section>
+
+        <!--           java script toggle menu              -->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showmenu() {
+                navLinks.style.right = "0";
+            }
+            function hidemenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

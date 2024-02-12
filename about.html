@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About us</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <!---                menu/navigation                 -->
+        <section class="sub-header">
+            <nav>
+                <a href="home.html"
+                    ><img src="eduford_img/logo1.png" alt=""
+                /></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                        <li><a href="form.html">CLEARANCE FORM</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+
+            <h1>About Us</h1>
+
+        </section>
+
+        <!--                 about us content                   -->
+        
+        <section class="about-us">
+
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the best Engineering College in Bangladesh</h1>
+                    <p>
+                        Welcome to Sylhet Engineering College, a leading institution in engineering education and innovation. Established with a vision to nurture the engineers of tomorrow, we take pride in our commitment to academic excellence, hands-on learning, and a vibrant campus community. <br>
+
+                        Our dedicated faculty members, who are experts in their fields, are here to guide and inspire you throughout your academic journey. Our state-of-the-art laboratories, cutting-edge research opportunities, and modern classrooms provide an environment where theoretical knowledge meets practical application. <br>
+
+                        At Sylhet Engineering College, we believe that education goes beyond textbooks, and we encourage students to engage in extracurricular activities, collaborate on projects, and participate in community outreach programs to develop well-rounded skills. <br>
+
+                        Join us on a path of discovery, innovation, and personal growth. Your future as an engineer begins here at Sylhet Engineering College. Welcome to a world of limitless possibilities. <br>
+
+                        <a href="home.html" class="hero-btn red-btn">EXPLORE NOW</a>
+                    </p>
+
+                </div>
+                <div class="about-col">
+                    <img src="CAMPUS/about_pic.jpeg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        
+
+        <!-----          footer           ------>
+
+        <section class="footer">
+
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>
+                Made By <br />
+                Kakoli and Ayan
+            </p>
+        </section>
+
+        <!--           java script toggle menu              -->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showmenu() {
+                navLinks.style.right = "0";
+            }
+            function hidemenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

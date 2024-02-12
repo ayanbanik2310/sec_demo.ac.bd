@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Deparment of EEE</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style2.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+    <body>
+        <!---                menu/navigation                 -->
+        <section class="sub-header">
+            <nav>
+                <a href="home.html"
+                    ><img src="eduford_img/logo1.png" alt=""
+                /></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                        <li><a href="form.html">CLEARANCE FORM</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+
+            <h1>Welcome To Department of</h1>
+            <h1>Electrical And Electronic Engineering</h1>
+        </section>
+
+        <!--                 CSE dept                   -->
+
+        
+
+    <h1 style="text-align: center; margin-top: 20px;">শিক্ষক-কর্মকর্তাবৃন্দ (ই.ই.ই)</h1>
+    <table border="2" style="border-collapse: collapse; margin-left: 10px;" >
+        <caption>
+            (জ্যেষ্ঠতার ভিত্তিতে নয়)
+        </caption>
+        <tr>
+            <th>ছবি</th>
+            <th>নাম</th>
+            <th>পদবি</th>
+            <th>যোগাযোগ</th>
+        </tr>
+        <tr>
+            <td><img src="images/sohid.jpg" alt="" /></td>
+            <td>মোঃ সাহিদ ইকবাল</td>
+            <td>সহকারী অধ্যাপক ও বিভাগীয় প্রধান (ই.ই.ই)</td>
+            <td>
+                মোবাইল : ০১৯১৬৫৯০৪৭২ <br />
+                ই-মেইল : shahidiqbal_05@yahoo.com
+            </td>
+        </tr>
+        <tr>
+            <td><img src="images/rabbi.jpg" alt="" /></td>
+            <td>সালমান ফজলে রাব্বী</td>
+            <td>প্রভাষক (ই.ই.ই)</td>
+            <td>
+                মোবাইল : ০১৬৭৬০৩৩৭৬১ <br />
+                ই-মেইল : salman.fr@sec.ac.bd
+            </td>
+        </tr>
+        <tr>
+            <td><img src="images/ashraful.jpg" alt="" /></td>
+            <td>মোঃ আশরাফুল আলম</td>
+            <td>প্রভাষক (ই.ই.ই)</td>
+            <td>
+                মোবাইল : ০১৭২৩৯৭৬৩৭৯ <br />
+                ই-মেইল : md.ashrafulalam@sec.ac.bd
+            </td>
+        </tr>
+        <tr>
+            <td><img src="images/limon.jpg" alt="" /></td>
+            <td>মো: ফাইয়াজ আহমদ লিমন</td>
+            <td>অ্যাডজাঙ্ক ফ্যাকাল্টি (ই.ই.ই)</td>
+            <td>
+                মোবাইল : 01787-152214 <br />
+                ই-মেইল : faiyaj@sec.ac.bd
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <h1 style="text-align: center;">Lab Facalities</h1>
+    <ol type="1" style="margin-left: 40px;">
+        <li >Electronics Lab</li>
+        <li>Electrical Circuit Lab</li>
+        <li>Electrical Machine Lab</li>
+        <li>Power System & High voltage Lab</li>
+        <li>Digital Signal Processing Lab/li>
+        <li>Structural Machine Lab</li>
+        <li>Robotics Lab</li>
+        <li>Digital Logic Design Lab </li>
+        <li>ATTS Lab</li>
+    </ol>
+
+
+
+
+    <!-----          footer           ------>
+
+    <section class="footer">
+        <div class="icons">
+            <a href="https://www.facebook.com" target="blank"><i class="fa fa-facebook"></i></a>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>
+            Made By <br />
+            Kakoli and Ayan
+        </p>
+    </section>
+
+    <!--           java script toggle menu              -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    </body>
+</html>

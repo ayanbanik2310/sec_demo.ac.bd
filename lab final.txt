@@ -1,0 +1,36 @@
+<table border="1" style="border-collapse: collapse;">
+        <tr>
+            <th>ছবি</th>
+            <th>নাম</th>
+            <th>পদবি</th>
+            <th>যোগাযোগ</th>
+        </tr>
+        <tr>
+            <td><img src="" alt=""></td>
+            <td>আবদুর রউফ</td>
+            <td>সহযোগী অধ্যাপক (সি.এস.ই)</td>
+            <td>মোবাইল : 01928228338 <br>
+                ই-মেইল  : roufmsc@gmail.com</td>
+        </tr>
+        <tr>
+            <td><img src="" alt=""></td>
+            <td>আবদুর রউফ</td>
+            <td>সহযোগী অধ্যাপক (সি.এস.ই)</td>
+            <td>মোবাইল : 01928228338 <br>
+                ই-মেইল  : roufmsc@gmail.com</td>
+        </tr>
+        <tr>
+            <td><img src="" alt=""></td>
+            <td>আবদুর রউফ</td>
+            <td>সহযোগী অধ্যাপক (সি.এস.ই)</td>
+            <td>মোবাইল : 01928228338 <br>
+                ই-মেইল  : roufmsc@gmail.com</td>
+        </tr>
+        <tr>
+            <td><img src="" alt=""></td>
+            <td>আবদুর রউফ</td>
+            <td>সহযোগী অধ্যাপক (সি.এস.ই)</td>
+            <td>মোবাইল : 01928228338 <br>
+                ই-মেইল  : roufmsc@gmail.com</td>
+        </tr>
+    </table>
